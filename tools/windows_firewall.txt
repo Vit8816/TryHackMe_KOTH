@@ -1,6 +1,0 @@
-netsh advfirewall firewall add rule name="Allow from 10.8.6.24 in" dir=in action=allow protocol=ANY remoteip=10.8.6.24
-netsh advfirewall firewall add rule name="Allow from 10.8.6.24 out" dir=out action=allow protocol=ANY remoteip=10.8.6.24
-netsh advfirewall firewall add rule name="Allow loopback in" dir=in action=allow protocol=ANY remoteip=127.0.0.1
-netsh advfirewall firewall add rule name="Allow loopback out" dir=out action=allow protocol=ANY remoteip=127.0.0.1
-netsh advfirewall firewall add rule name="Block all other inbound" dir=in action=block protocol=ANY remoteip=any
-netsh advfirewall firewall add rule name="Block all other outbound" dir=out action=block protocol=ANY remoteip=any
